@@ -1,0 +1,25 @@
+
+.btn-heart {
+  background-image: url('./heart-empty.svg');
+  background-repeat: no-repeat;
+  
+  background-size: contain;
+  background-color: white;
+  border: none;
+
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+  .btn-heart:disabled {
+cursor: not-allowed;
+  }
+  .btn-heart:focus {
+    outline: none;
+      }
+
+  .btn-heart--favorited {
+background-image: url('./heart-full.svg');
+
+  }
+

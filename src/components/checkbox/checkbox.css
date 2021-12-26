@@ -1,0 +1,35 @@
+
+.checkbox {
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #595959;
+  padding: 10px 20px 0px 32px;
+}
+.checkbox:hover, .checkbox:focus {
+cursor: pointer;
+  }
+
+
+.checkbox-input {
+  position: absolute;
+  appearance: none;
+ 
+}
+
+.checkbox-custom {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-image: url('./checkbox-enabled-unchecked.svg');
+  background-size: contain;
+  margin-left: -30px;
+}
+
+checkbox-input:checked + .checkbox-custom {
+  background-image: url('./checkbox-checked.svg');
+}

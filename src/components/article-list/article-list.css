@@ -1,0 +1,41 @@
+.blog-posts {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 26px;
+  width: 100%;
+}
+
+li {
+  list-style: none;
+  
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.post-container {
+  padding: 14px;
+  background-color: white;
+  width: 938px;
+  border-radius: 5px;
+  filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.15));
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+}

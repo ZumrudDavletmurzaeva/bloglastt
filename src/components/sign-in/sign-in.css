@@ -1,0 +1,79 @@
+.signin-block{
+  width:384px;
+  height:374px;
+  background-color: #FFFFFF;
+  border-radius: 6px;
+  display:flex;
+  flex-direction: column;
+  padding-left: 32px;
+  box-sizing: border-box;
+  padding-right: 32px;
+padding-top: 45px;  
+margin: 60px auto;
+}
+
+h3 {
+  font-size: 20px;
+  line-height:28px;
+  font-weight: 500;
+text-align: center;
+}
+
+
+.label{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  font-size: 15px;
+line-height:22px;
+color: #262626;
+font-weight: 400;
+margin-bottom: 20px;
+width: 320px;
+  
+}
+
+.email{
+color: #BFBFBF;
+font-size: 16px;
+line-height: 24px;
+width: 320px;
+height: 40px;
+box-sizing: border-box;
+padding-left:12px;
+border-radius: 4px;
+border: 1px solid #D9D9D9;
+}
+
+
+.password{
+  color: #BFBFBF;
+  font-size: 16px;
+  line-height: 24px;
+  width: 320px;
+height: 40px;
+padding-left:12px;
+border-radius: 4px;
+box-sizing: border-box;
+border: 1px solid #D9D9D9;
+  }
+
+  .btn-submit{
+background-color: #1890FF;
+width: 320px;
+height: 40px;
+border-radius: 4px;
+border: 1px solid #1890FF;
+color: #FFFFFF;
+font-size:16px;
+line-height: 24px;
+cursor: pointer;
+outline:none;
+  }
+
+  .btn-submit:focus, .btn-submit:hover {
+    color: white;
+    background-color: #1890FF;
+    border: 1px solid #1890FF;
+      }

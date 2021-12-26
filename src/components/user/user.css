@@ -1,0 +1,32 @@
+
+.user-log {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: auto;
+}
+
+.info-log {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.name-log {
+ font-family: 'Inter';
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  color:rgba(0, 0, 0, 0.85);
+  
+}
+
+
+
+.picture-log {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  margin-left: 12px;
+}

@@ -1,0 +1,56 @@
+.article {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+ flex: 1 1 auto;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.blog-likes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 10px;
+
+}
+
+
+.blog-tags {
+  display: flex;
+  flex-direction: row;
+}
+
+.likes-count {
+  font-family: 'Inter';
+  font-size:12px;
+  line-height: 22px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.75);
+  margin: 0 5px;
+}
+
+
+
+.blog-post-title {
+  font-family: 'Inter';
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  color: rgba(24, 144, 255, 1);
+ 
+}
+
+.blog-post-content {
+  font-family: 'Inter';
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.75);
+  /* width: 75%; */
+}
+

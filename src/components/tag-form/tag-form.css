@@ -1,0 +1,43 @@
+.new-tag-form {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  width: 30%;
+  list-style: none
+}
+
+.infoadd{
+  width: 120px;
+  margin-right: 10px;
+  height: 30px;
+    background-color: white;
+    border-radius: 4px;
+    padding: 0.3em 1em;
+    cursor: pointer;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    outline: none;
+    box-sizing: border-box;
+    border: 1px solid  rgba(24, 144, 255, 1);
+	color:  rgba(24, 144, 255, 1);
+}
+
+.highlightt{
+  width: 120px;
+  height: 30px;
+  text-align: center;
+  background-color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 4px;
+  padding: 0.3em 1em;
+  cursor: pointer;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  outline: none;
+  border: 1px solid  rgb(250, 29, 0);
+color:  rgb(250, 29, 0);
+}

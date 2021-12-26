@@ -1,0 +1,75 @@
+.header {
+  display: flex;
+  flex-direction: row;
+align-items: flex-start;
+
+
+}
+
+.post-container {
+  padding: 14px;
+  background-color: white;
+width: 938px;
+  border-radius: 5px;
+  filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.15));
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+ 
+}
+
+.delete{
+  
+  border: 1px solid #52C41A;
+padding: 3px 7px ;
+width: 69px;
+text-align: center;
+  border-radius: 5px;
+  color:#52C41A ;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 24px;
+background-color: white;
+	height: 30px;
+}
+
+.edit{
+  border: 1px solid #d11313;
+  padding: 3px 7px ;
+  text-align: center;
+  width: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  color:#d11313;
+  cursor: pointer;
+  font-size: 16px;
+	line-height: 24px;
+	height: 22px; 
+}
+.post {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-self: center;
+}
+
+.control-buttons {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+
+.article-post-header{
+  display: flex;
+  flex-direction: column;
+}
+
+.user-buttons {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+}

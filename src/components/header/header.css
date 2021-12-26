@@ -1,0 +1,93 @@
+.blog-header {
+  margin-bottom: 26px;
+  background-color: white;
+  padding: 0 22px;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  align-self: stretch;
+}
+.link {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  margin-left: 1em;
+  margin-right: 1em;
+  border-radius: 5px;
+  padding: 4px;
+  border: 1px solid white;
+}
+.signin:focus, .signin:hover {
+border: 1px solid rgba(0, 0, 0, 0.85);
+  
+}
+
+.create-article{
+  font-size: 16px;
+	line-height: 24px;
+  height: 30px;
+  color:#52C41A; 
+width: 112px;
+    border: 1px solid #52C41A;
+  padding: 3px 7px ;
+
+  text-align: center;
+    border-radius: 5px;
+  
+    cursor: pointer;
+   
+  
+}
+.user-log {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: auto;
+}
+
+.heading{
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 16px;
+	line-height: 24px;
+	height: 30px;
+}
+
+
+.signup{
+  border: 1px solid #52C41A;
+  padding: 0.3em 1em;
+  border-radius: 5px;
+  color:#52C41A ;
+  cursor: pointer;
+  font-size: 16px;
+	line-height: 24px;
+	height: 30px;
+
+}
+
+.logout{
+  width: 100px;
+  font-size: 16px;
+	line-height: 24px;
+  height: 50px;
+  color: rgba(0, 0, 0, 0.75);
+  background-color: white;
+  border-radius: 5px;
+  font-weight: 400;
+  border: 1px solid rgba(0, 0, 0, 0.85);
+
+}
+.signin{
+  padding: 0.3em 1em;
+  border-radius: 5px;
+  color:#000000;
+  cursor: pointer;
+  font-size: 16px;
+	line-height: 24px;
+	height: 30px;
+}

@@ -1,0 +1,16 @@
+
+.app {
+  background-color:  #E5E5E5;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0;
+  padding-bottom: 78px;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.85);
+}
+
