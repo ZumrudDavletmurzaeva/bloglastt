@@ -26,13 +26,13 @@ const App = function() {
   const [user, setUser] = useState('');
 
   useEffect(() => {
-    const userData = window.localStorage.getItem('user') 
+    const userData = window.localStorage.getItem('user') ? window.localStorage.getItem('user') : '';
     if (userData === '') {
       return;
     }
 
     const userJson = JSON.parse(userData);
-    const { token } = userJson;
+    const {token} = userJson;
 
     const getauthorize = async (token) => {
       const result = await api.getCurrentUser(token);
